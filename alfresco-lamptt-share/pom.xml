@@ -74,6 +74,11 @@
         	<version>1.2.0-M14</version>
         	<scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.alfresco</groupId>
+            <artifactId>alfresco-remote-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <!-- This repository is only needed to retrieve Alfresco parent POM. 

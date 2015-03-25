@@ -1,0 +1,4 @@
+<feeds id="rssfeed">
+	<feed>http://vnexpress.net/rss/tin-moi-nhat.rss</feed>
+	<feed>http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/front_page/rss.xml</feed>
+</feeds>
