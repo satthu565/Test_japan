@@ -144,7 +144,7 @@ function main()
          description: "welcome.cloud.sign-up.description",
          imageUrl: "/res/components/images/help-cloud-bw-64.png",
          actionMsg: "welcome.cloud.sign-up.link",
-         actionHref: "https://trial.metadata.vn/share/page/register",
+         actionHref: "http://my.metadata.vn/share/page/",
          actionId: null,
          actionTarget: "_blank"
       });

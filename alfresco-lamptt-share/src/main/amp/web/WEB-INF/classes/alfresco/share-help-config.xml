@@ -1,0 +1,10 @@
+<alfresco-config>
+
+   <config evaluator="string-compare" condition="HelpPages">
+      <help-pages>
+         <share-help>http://ecoit.asia/web/guest/tin-chi-tiet/-/chi-tiet/ecoecm-203-101.html</share-help>
+         <share-tutorial>http://ecoit.asia/web/guest/tin-chi-tiet/-/chi-tiet/ecoecm-203-101.html</share-tutorial>
+      </help-pages>
+   </config>
+
+</alfresco-config>

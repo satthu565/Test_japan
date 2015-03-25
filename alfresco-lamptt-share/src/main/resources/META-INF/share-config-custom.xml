@@ -44,7 +44,7 @@
 					require authentication
 				</description>
 				<connector-id>alfresco</connector-id>
-				<endpoint-url>http://192.168.1.209:8080/alfresco/s</endpoint-url>
+				<endpoint-url>http://localhost:8080/alfresco/s</endpoint-url>
 				<identity>none</identity>
 			</endpoint>
 
@@ -55,7 +55,7 @@
 					user authentication
 				</description>
 				<connector-id>alfresco</connector-id>
-				<endpoint-url>http://192.168.1.209:8080/alfresco/s</endpoint-url>
+				<endpoint-url>http://localhost:8080/alfresco/s</endpoint-url>
 				<identity>user</identity>
 			</endpoint>
 
@@ -66,7 +66,7 @@
 					the EndPointProxyServlet
 				</description>
 				<connector-id>http</connector-id>
-				<endpoint-url>http://192.168.1.209:8080/alfresco/s</endpoint-url>
+				<endpoint-url>http://localhost:8080/alfresco/s</endpoint-url>
 				<basic-auth>true</basic-auth>
 				<identity>user</identity>
 			</endpoint>
@@ -78,10 +78,23 @@
 					authentication
 				</description>
 				<connector-id>activiti-admin-connector</connector-id>
-				<endpoint-url>http://192.168.1.209:8080/alfresco/activiti-admin
+				<endpoint-url>http://localhost:8080/alfresco/activiti-admin
 				</endpoint-url>
 				<identity>user</identity>
 			</endpoint>
 		</remote>
+	</config>
+	
+	<config evaluator="string-compare" condition="DocumentLibrary">
+		
+		<aspects>
+			<visible>
+				<aspect name="sys:hidden" />
+			</visible>
+			<addable>
+			</addable>
+			<removeable>
+			</removeable>
+		</aspects>
 	</config>
 </alfresco-config>
