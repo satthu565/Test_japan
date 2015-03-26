@@ -11,13 +11,6 @@
 		</flags>
 	</config>
 	
-	<config evaluator="string-compare" condition="Languages" replace="true">
-	   <!-- the list of available language files -->
-	   <languages>
-	       <language locale="ja_JP">Japanese</language>
-	   </languages>
-	</config>
-	
 	<config evaluator="string-compare" condition="WebFramework">
 		<web-framework>
 			<!-- SpringSurf Autowire Runtime Settings -->
